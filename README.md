@@ -9,24 +9,15 @@ was redone from xcape by Albin Olsson: https://github.com/alols/xcape
 ------------
 Installation
 ------------
+1. Use this command:
 
-1. Install dependencies :
-
-    ```
-    $ sudo apt-get install git gcc make libx11-dev libxtst-dev pkg-config
-    ```
-
-    On some systems you also need to install the `build-essential` package.
-
-2. Use this commands for install:
-
-    ```
-    $ git clone https://github.com/MikhailMeshcheryakov/metakey.git
+    $ sudo apt-get install git gcc make pkg-config libx11-dev libxtst-dev libxi-dev
+    $ mkdir metakey
     $ cd metakey
+    $ git clone https://github.com/MikhailMeshcheryakov/metakey.git .
     $ make
-    ```
-
-3. Launch metakey. Set Alt+Ctrl on left side of your keyboard to open Kickoff menu.
+    
+2. Launch metakey. Set Alt+Ctrl on left side of your keyboard to open Kickoff menu.
 
 Usage
 -----
@@ -74,4 +65,4 @@ Find the latest version at
 https://github.com/MikhailMeshcheryakov/metakey
 
 The author can be reached at
-mikhail.meshcheryakov@effits.ru
+mikhail dot meshcheryakov at effits dot ru
