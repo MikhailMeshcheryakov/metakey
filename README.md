@@ -1,4 +1,4 @@
-metakey
+<t> metakey </t>
 =======
 
 Utility to make metakey open Kickoff menu in KDE
@@ -11,17 +11,20 @@ Installation
 ------------
 1. Use this command:
 
+    ```
     $ sudo apt-get install git gcc make pkg-config libx11-dev libxtst-dev libxi-dev
     $ mkdir metakey
     $ cd metakey
     $ git clone https://github.com/MikhailMeshcheryakov/metakey.git .
     $ make
-    
+     ```
+     
 2. Launch metakey. Set Alt+Ctrl on left side of your keyboard to open Kickoff menu.
 
 Usage
------
-    $ metakey [-d] [-t <timeout ms>] [-e <map-expression>]
+------
+
+       $ metakey [-d] [-t <timeout ms>] [-e <map-expression>]
 
 `-d`
 
